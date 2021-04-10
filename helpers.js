@@ -1,3 +1,14 @@
+function convertToNumbers(numsAsStrings) {
+  const numsArray = numsAsStrings.split(",");
+  let result = [];
+
+  for (value of numsArray) {
+    let valToNum = Number(value);
+    result.push(valToNum);
+  }
+  return result;
+}
+
 function calculateMean(nums) {
   // Takes in an array of numbers and finds the mean.
 
@@ -6,5 +17,6 @@ function calculateMean(nums) {
 }
 
 module.exports = {
+  convertToNumbers,
   calculateMean,
 };
