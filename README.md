@@ -1,2 +1,2 @@
-# basic_express_app_template
-This is a basic Express.js app template.
+# Express_routes Exercise
+Basic calculator using node.js and express.js.
